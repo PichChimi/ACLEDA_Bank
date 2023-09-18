@@ -1,0 +1,582 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Khmer', sans-serif;
+
+}
+
+.head {
+    background-color: #1B3351;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    padding: 20px;
+    width: 230px;
+}
+
+.contant {
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: center;
+}
+
+.contant img {
+    width: 100%;
+    max-width: 640px
+}
+
+.shadow {
+    background: url(../img/nav-shadow.png) repeat-x top;
+    height: 7px;
+    top: 87px;
+    z-index: 3;
+    width: 100%;
+    position: fixed;
+}
+
+.text {
+    margin: 0 auto;
+    max-width: 790px;
+    padding: 70px;
+}
+
+.text p {
+    font-family: 'Battambang', cursive;
+    line-height: 190%;
+    font-size: 18px;
+}
+
+.hun-footer {
+    background-color: #1B3351;
+}
+
+.contact {
+    margin: 0 auto;
+    padding: 50px;
+    width: 58%;
+}
+
+.contact p {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 180%;
+}
+
+.ruler {
+    width: 100%;
+    opacity: 0.1;
+    border: 1px solid white;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.fa-solid {
+    padding-right: 8px;
+    font-size: 16px;
+}
+
+h4 {
+    color: white;
+    letter-spacing: 1px;
+}
+
+/* ============= Satrt International ========= */
+/* ------ banner ----- */
+.bg-banner {
+    position: relative;
+    background-color: #E9ECEF;
+    text-align: center;
+}
+
+.bg-banner img {
+    width: 100%;
+    max-width: 1160px;
+    object-fit: cover;
+}
+
+/* <!-- --------- start body left--------- --> */
+.body-all {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-ri {
+    margin: 0;
+    padding: 0 0 45px 20px;
+    position: relative;
+    float: left;
+    width: 62%;
+}
+
+.main-left {
+    width: 30%;
+    margin: 15px 20px 30px;
+    position: relative;
+    float: right;
+}
+
+.ri-menu div {
+    font-weight: bold;
+    letter-spacing: 1px
+}
+
+.ri-menu div {
+    padding-bottom: 5px;
+    cursor: pointer;
+    color: #06C;
+    text-transform: uppercase;
+    font-size: 100%;
+    border-bottom: 1px solid #E9ECEF;
+}
+
+/* ------------ start product row -------- */
+.pro-row ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pro-row ul li {
+    display: inline-block;
+}
+
+.pro-row ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(9, 51, 93);
+    padding: 5px 4px
+}
+
+.pro-row ul li a:hover {
+    color: rgb(5, 26, 47);
+    text-decoration: underline;
+}
+
+.pro-row img {
+    width: 18px;
+}
+
+.pro-row span {
+    opacity: 0.5;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.pro-row {
+    margin-top: 23px;
+}
+
+/* ------------ and product row -------- */
+/* -------- Start dropdown-menu -------- */
+#dropdown-menu li a {
+    color: #06C;
+    font-size: 13px;
+}
+
+#dropdown p {
+    color: #06C;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* -------- and dropdown-menu -------- */
+/* ------ international ------ */
+.r-under {
+    border-bottom: 1px solid #E9ECEF;
+}
+
+.international {
+    margin-top: 30px;
+}
+
+.international h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #C29A39;
+    line-height: 140%;
+}
+
+.international h2 span {
+    color: #1B3351;
+}
+
+/* ------ international ------ */
+/* ------- star ------ */
+.star {
+    margin-top: 10px;
+}
+
+.star .fa-star-half-stroke,
+.fa-star {
+    color: goldenrod;
+    font-size: 15px;
+}
+
+.star span {
+    color: #06C;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+/* ------- box1 --------- */
+.box-img img {
+    margin: 25px 0 20px 4%;
+    width: 40%;
+    float: right;
+    clear: right;
+}
+
+.hlight {
+    padding-left: 16px;
+    margin: 30px 0;
+    border-left: 4px solid #c29a39;
+}
+
+.txt-hlight p {
+    margin: 0;
+    padding: 10px 0 5px;
+    text-align: justify;
+}
+
+.hlight a,
+.txt-hlight p a {
+    text-decoration: none;
+}
+
+.main-ri h4 {
+    margin: 0;
+    padding: 20px 0 5px;
+    font-size: 120%;
+    color: #173A87;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+/* ------ table1 --------- */
+.main-ri table {
+    width: 100%;
+    margin: 10px 0 0;
+    padding: 0;
+    text-align: left;
+}
+
+.main-ri .table-cover {
+    overflow-x: auto;
+    margin: 0 0 20px;
+}
+
+.main-ri table td {
+    margin: 0;
+    padding: 7px 10px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.main-ri table td a {
+    text-decoration: none;
+}
+
+.main-ri table tr:hover {
+    transition: 0.3s;
+}
+
+.main-ri table tr:hover {
+    background-color: #e9ecef;
+}
+
+/* -------- table1 ------------ */
+/* ------------ table2 -------- */
+.main-rin table tbody,
+th {
+    border-right: 1px solid #fff;
+    background-color: #1B3351;
+    color: #fff;
+    text-align: left;
+    margin: 0;
+    padding: 14px;
+}
+
+.table-cover table tr td {
+    font-size: 14px;
+}
+
+/* ------------ table2 -------- */
+/* --------- Share Menu ------------- */
+.share-menu {
+    padding: 15px 0 0 0;
+    margin: 45px 0 0;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 250%;
+    clear: both;
+    border-top: 1px solid #E9ECEF;
+}
+
+.share-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.share-menu ul li {
+    display: inline-block;
+    padding: 9px;
+    color: #06C;
+    font-size: 18px;
+}
+
+.share-menu ul li:hover {
+    color: rgb(6, 28, 50);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.share-menu li span {
+    margin-left: 3px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* --------- Share Menu ------------- */
+/* <!-- --------- and body left --------- --> */
+
+/* <!-- --------- Start body right --------- --> */
+.head-banner img {
+    width: 100%;
+}
+
+.logo-right {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .7) 0%, rgba(0, 0, 0, 0) 100%);
+    height: 7%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.all {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+}
+
+.logo-right img {
+    width: 60px;
+    border: 2px solid white;
+    position: relative;
+}
+
+.logo-txt div {
+    transform: translate(43%, -250%);
+    color: white;
+}
+
+.rictn-ctn {
+    background-color: #E9ECEF;
+    padding: 15px 20px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.rictn-ctn .title a {
+    margin: 0;
+    padding: 10px 0 5px;
+    text-transform: uppercase;
+    font-size: 120%;
+    text-decoration: none;
+}
+
+.rictn-ctn .title a:hover {
+    text-decoration: underline;
+    color: rgb(8, 27, 47);
+}
+
+.title-img img {
+    width: 100%;
+}
+
+.title-txt {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 190%;
+    font-weight: 500;
+}
+
+.btn-hover p a {
+    padding: 10px 44px;
+    color: #fff;
+    background-color: #1b3351;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.btn-hover p a:hover {
+    text-decoration: underline;
+}
+
+.brand {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.brand p a img {
+    width: 80px;
+}
+
+#contact-ri ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#contact-ri ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+#contact-ri span:hover {
+    text-decoration: underline;
+    color: rgb(5, 19, 33);
+}
+
+#contact-ri span {
+    color: #06C;
+    margin-left: 8px;
+}
+
+/* <!-- --------- and body right --------- --> */
+/* ============= And International ========= */
+
+/* =========== Start Special Offers ============== */
+
+.imghome {
+    position: relative;
+    margin: 20px 0 0;
+    padding: 10px 0 0;
+    border-top: 1px solid #E9ECEF;
+    z-index: 0;
+    clear: left;
+}
+
+.imghome img {
+    margin: 10px 15px 30px 0;
+    padding: 0;
+    width: 180px;
+    float: left;
+}
+
+.special-title {
+    margin-top: 5px;
+}
+
+.special-title a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.special-title a:hover {
+    text-decoration: underline;
+    color: rgb(5, 19, 33);
+}
+
+.special-text {
+    margin: 5px 0 0 186px;
+    font-size: 14px;
+    line-height: 160%;
+    padding: 0;
+}
+
+.special-text a {
+    text-decoration: none;
+}
+
+.special-text a:hover {
+    text-decoration: underline;
+    color: rgb(5, 19, 33);
+}
+
+#special-text {
+    font-size: 15px;
+    line-height: 160%;
+}
+
+#special-text p {
+    margin-top: 5px;
+}
+
+.special-text ul li {
+    font-size: 13px;
+    padding: 0;
+    font-weight: 600;
+}
+
+.special-text ul {
+    margin: 8px 0 5px 0;
+}
+
+/* =========== And Special Offers ============== */
+
+/* =========== Start Financial Information =========== */
+/* --------- row 1 -------- */
+ul.listbox {
+    margin: 0 -3.5%;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    overflow: hidden;
+}
+
+ul.listbox li {
+    width: 50%;
+    float: left;
+    padding: 30px 3.5% 30px;
+}
+
+ul.listbox li a {
+    text-decoration: none;
+}
+
+ul.listbox li a:hover {
+    text-decoration: underline;
+    color: rgb(5, 19, 33);
+}
+
+ul.listbox li .title-list {
+    padding-top: 10px;
+    font-size: 110%;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+ul.listbox li p {
+    text-indent: 0;
+    padding-top: 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+ul.listbox li img {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+/* =========== And Financial Information =========== */

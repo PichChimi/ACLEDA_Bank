@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ---------- font-awesom ------------ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- ---------- B css --------- -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- ---------- Font ---------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- ----------- Style CSS --------- -->
+    <link rel="stylesheet" href="assets/CSS/Style.css">
+    <!-- --------- Card Syle ---------- -->
+    <link rel="stylesheet" href="assets/CSS/Card-style.css">
+    <link rel="icon" href="assets/img/logo-icon.png">
+    <title>Promotion</title>
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        @media screen and (max-width: 901px) {
+            .head-nav {
+                display: none;
+            }
+
+            .head-img img {
+                width: 170px;
+            }
+
+            .head-img {
+                height: 65px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="stiky ">
+        <!-- ------------------- start Head first ------------------- -->
+        <div class="head-f ">
+            <div class="head">
+                <i class="fa-solid fa-bars " onclick="showMenu()"></i>
+                <div class="head-img">
+                    <a href="index.html"><img src="assets/img/logo-ACLEDA.png"></a>
+                </div>
+                <div class="head-link">
+                    <ul>
+                        <li>
+                            <a href="">ABOUT ACLEDA <span style="font-size: 13px;"><i
+                                        class="fa-solid fa-chevron-up fa-rotate-180"></i></span></a>
+                            <ul class="dropdown">
+                                <li><a href="Information.html">Financial Information</a></li>
+                                <li><a href="bank-profile.html">Bank Profile</a></li>
+                                <li><a href="Media.html">Media</a></li>
+                                <li><a href="Contact-us.html">Contact Us</a></li>
+                                <li><a href="">Download</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">SEARCH <span style="font-size: 12px;"><i
+                                        class="fa-solid fa-magnifying-glass"></i></span></a></li>
+                        <li>
+                            <a href="" style="color: goldenrod;">INTERNET BANKING <span style="font-size: 13px;"><i
+                                        class="fa-solid fa-chevron-up fa-rotate-180"></i></span></a>
+                            <ul class="dropdown">
+                                <li><a href="">Retail Banking</a></li>
+                                <li><a href="">Corporate Banking</a></li>
+                            </ul>
+                        </li>
+
+                        <li><img src="assets/img/flag-cambodia.png" style="width: 33px; border: 1px solid white;"></li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <!-- ------------------- end Head first ------------------- -->
+        <!-- --------------- start head second ----------- -->
+        <div class="head-nav">
+            <div class="head-second">
+                <div class="head-link">
+                    <ul>
+                        <li>
+                            <a href="">PERSONAL <span style="font-size: 13px;"><i
+                                        class="fa-solid fa-chevron-up fa-rotate-180"></i></span></a>
+                            <ul class="dropdown">
+                                <li><a href="">Cradits</a></li>
+                                <li><a href="">Deposits</a></li>
+                                <li><a href="">Cash Management</a></li>
+                                <li><a href="">Funds Transfers</a></li>
+                                <li><a href="">Trade Finance</a></li>
+                                <li><a href="">Securities</a></li>
+                                <li><a href="">Financial Health Check</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">BISINESS <span style="font-size: 13px;"><i
+                                        class="fa-solid fa-chevron-up fa-rotate-180"></i></span></a>
+                            <ul class="dropdown">
+                                <li><a href="">Cradits</a></li>
+                                <li><a href="">Deposits</a></li>
+                                <li><a href="">Cash Management</a></li>
+                                <li><a href="">Funds Transfers</a></li>
+                                <li><a href="">Trade Finance</a></li>
+                                <li><a href="">Securities</a></li>
+                                <li><a href="">Financial Health Check</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">CARDS <span style="font-size: 13px;"><i
+                                        class="fa-solid fa-chevron-up fa-rotate-180"></i></span></a>
+                            <ul class="dropdown">
+                                <li><a href="">Consumer Card</a></li>
+                                <li><a href="">ACLEDA Card</a></li>
+                                <li><a href="">ACLEDA VISA Card</a></li>
+                                <li><a href="">ACLEDA Mastercard Card</a></li>
+                                <li><a href="">ACLEDA JCB Card</a></li>
+                                <li><a href="">ACLEDA UPI Card</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">DIGITAL <span style="font-size: 13px;"><i
+                                        class="fa-solid fa-chevron-up fa-rotate-180"></i></span></a>
+                            <ul class="dropdown">
+                                <li><a href="">ACLEDA Internet Banking</a></li>
+                                <li><a href="">ACLEDA mobile</a></li>
+                                <li><a href="">ACLEDA E-Commerce</a></li>
+                                <li><a href="">ACLEDA ATM</a></li>
+                                <li><a href="">ACLEDA POS</a></li>
+                                <li><a href="">Term Deposit Machine</a></li>
+                                <li><a href="">Virtual Teller Machine</a></li>
+                                <li><a href="">PayBand</a></li>
+                                <li><a href="">Bill Payment</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">INVESTOR RELATIONS</a></li>
+                    </ul>
+                </div>
+                <div class="exchang">
+                    <div class="usa">
+                        <ul>
+                            <li>EXCHANGE RATE</li>
+                            <li><img src="assets/img/USD.png" style="width: 20px; border: 1px solid white;"> <span>
+                                    USA</span></li>
+                            <li>4,150</li>
+                            <li>4,162</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- --------------- and head second ----------- -->
+        <div class="nav-shadow"></div>
+    </div>
+    <!-- ------------ start Menu Responsive ----------- -->
+    <div class="menu" id="nav">
+        <div class="khmer">
+            <img src="assets/img/flag-cambodia.png"> <span>ភាសាខ្មែរ</span>
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+        </div>
+        <div class="link-menu">
+
+            <ul>
+                <li class="item"><a href=""><i class="fa-solid fa-globe"></i><span>RETAIL INTERNET BANKING</span></a>
+                </li>
+                <li class="item"><a href=""><i class="fa-solid fa-magnifying-glass"></i><span>SEARCH</span></a></li>
+                <li class="item"><a href=""><i class="fa-solid fa-building-columns"></i><span>ABOUT ACLEDA</span></a>
+                </li>
+                <li class="item"><a href=""><i class="fa-solid fa-user"></i><span>PERSONAL</span></a></li>
+                <li class="item"><a href=""><i class="fa-solid fa-building"></i><span>BUSINESS</span></a></li>
+                <li class="item"><a href=""><i class="fa-solid fa-credit-card"></i><span>CARDS</span></a></li>
+                <li class="item"><a href=""><i class="fa-solid fa-fingerprint"></i><span>DIGITAL</span></a></li>
+                <li class="item"><a href=""><i class="fa-solid fa-arrow-trend-up"></i><span>INVESTOR
+                            RELATIONS</span></a></li>
+                <li class="item"><a href=""><i class="fa-solid fa-file-arrow-down"></i><span>DOWNLOAD</span></a></li>
+                <li class="item"><a href=""><i class="fa-solid fa-circle-info"></i><span>INFORMATION</span></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- ------------ and Menu Responsive ----------- -->
+    <section class="body-all">
+
+        <div class="main-ri">
+            <div class="menu-dru">
+                <div class="dropdown" id="dropdown">
+                    <p class=" dropdown-toggle" type="text" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        special offers
+                    </p>
+                    <div class="r-under"></div>
+                    <ul class="dropdown-menu" id="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">ACLEDA Mobbile</a></li>
+                        <li><a class="dropdown-item" href="#">ACLEDA POS</a></li>
+                        <li><a class="dropdown-item" href="#">VISA Card</a></li>
+                        <li><a class="dropdown-item" href="#">Mastercard Card</a></li>
+                        <li><a class="dropdown-item" href="#">JCB Card</a></li>
+                        <li><a class="dropdown-item" href="#">UPI Card</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pro-row">
+                <ul>
+                    <li><a href="#"><img src="assets/img/logo-icon.png"><span><i
+                                    class="fa-solid fa-chevron-right"></i></span></a></li>
+                    <li><a href="#">Special Offers<span></span></a></li>
+                </ul>
+            </div>
+
+            <div class="international">
+                <h2><span>special</span> offers<a name="here">&nbsp;</a></h2>
+            </div>
+            <!-- --------- card 1 ---------- -->
+            <div class="imghome">
+                <img src="assets/img/Good Time Relax Resort.jpg" width="100%">
+                <p class="special-title"><a href="#">Enjoy 20% OFF . <span
+                            style="color:red; font-size:70%;">Expired</span></a></p>
+                <div class="special-text" id="special-text">Enjoy 20% off for using ACLEDA Bank's Mastercard at <a
+                        href="#">Good Time Relax Resort</a> in Kampot Province.<p>Offer is applicable for direct booking
+                        via +855 90 313 535 (Telephone &amp; Telegram) and valid until July 15, 2023. Terms &amp;
+                        conditions apply.</p>
+                </div>
+            </div>
+            <!-- --------- card 1 ---------- -->
+
+            <!-- --------- card 2 ---------- -->
+            <div class="imghome">
+                <img src="assets/img/TotalEnergies.jpg" width="100%">
+                <p class="special-title"><a href="#">Get 30% cashback . <span
+                            style="color:red; font-size:70%;">Expired</span></a></p>
+                <div class="special-text" id="special-text">Get <strong>30%</strong> cashback for your payments through
+                    <strong>Mastercard</strong> on POS of ACLEDA Bank at TotalEnergies all branches.<p>Terms &amp;
+                        conditions apply. <a href="#">Read more...</a></p>
+                </div>
+            </div>
+            <!-- --------- card 2 ---------- -->
+
+            <!-- --------- card 3 ---------- -->
+            <div class="imghome">
+                <img src="assets/img/Visa-Cold-Stone.jpg" width="100%">
+                <p class="special-title">Get 20% OFF . <span style="color:red; font-size:70%;">Expired</span></p>
+                <div class="special-text" id="special-text">Get 20% off for your payments through ACLEDA Bank's
+                    <strong>Visa cards</strong> (except Visa Virtual Card) at <strong>Cold Stone Creamery
+                        Cambodia</strong> from now until the end of June 2023 or while stocks last. Terms &amp;
+                    conditions apply.</div>
+            </div>
+            <!-- --------- card 3 ---------- -->
+
+            <!-- --------- card 4 ---------- -->
+            <div class="imghome">
+                <img src="assets/img/Visa-Carls-Jr.jpg" width="100%">
+                <p class="special-title">Get 10% OFF . <span style="color:red; font-size:70%;">Expired</span></p>
+                <div class="special-text" id="special-text">Get 10% off for your payments through ACLEDA Bank's Visa
+                    cards (except Visa virtual card) at Carl's Jr. Cambodia from now until the end of June 2023 or while
+                    stocks last. Terms &amp; conditions apply.</div>
+            </div>
+            <!-- --------- card 4 ---------- -->
+
+            <!-- --------- card 5 ---------- -->
+            <div class="imghome">
+                <img src="assets/img/One More Restaurant 2.jpg" width="100%">
+                <p class="special-title">Free Dessert . <span style="color:red; font-size:70%;">Expired</span></p>
+                <div class="special-text" id="special-text">Free dessert for every payments through ACLEDA Bank's Visa
+                    cards (except virtual card) at One More Restaurant located in Sangkat Boeung Kak 1, Khan Toul Kork,
+                    Phnom Penh.<p>Valid from now until the end of June 2023. Terms &amp; conditions apply.</p>
+                </div>
+            </div>
+            <!-- --------- card 5 ---------- -->
+
+            <!-- --------- card 6 ---------- -->
+            <div class="imghome">
+                <img src="assets/img/banner9895.jpg" width="100%">
+                <p class="special-title">Instant 30% OFF</p>
+                <div class="special-text" id="special-text">Payments through <strong>ACLEDA KHQR</strong> on
+                    <strong>ACLEDA mobile</strong> at <a href="#">Star Anise Coffee &amp; Eatery</a>
+                    <ul type="circle">
+                        <li>Valid from now until the September 29, 2023 or while stocks last.</li>
+                        <li>Offer up to USD3 or KHR12,000 per transaction.</li>
+                        <li>A customer gets 1 time discount per day.</li>
+                        <li>We reserve the rights to change the terms and conditions or terminate the promotion without
+                            prior notice.</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- --------- card 6 ---------- -->
+
+            <!-- --------- card 7 ---------- -->
+            <div class="imghome">
+                <img src="assets/img/jcb-foodpanda2.jpg" width="100%">
+                <p class="special-title">Get $2 discount</p>
+                <div class="special-text" id="special-text">Get $2 discount for online payments through <strong>ACLEDA
+                        JCB</strong> on <strong>foodpanda</strong> with promo code: <strong>ACLEDAJ8</strong>
+                    <ul type="circle">
+                        <li>Payment from $5 up and you will get $2 discount.</li>
+                        <li>You can only get 2 times discount.</li>
+                        <li>Valid from now until the end of September 2023 or while stocks last.</li>
+                        <li>We reserve the rights to change conditions or terminate the promotion without prior notice.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- --------- card 7 ---------- -->
+
+            <!-- --------- card 8 ---------- -->
+            <div class="imghome">
+                <img src="assets/img/souvenir.jpg" width="100%">
+                <p class="special-title">Give Souvenirs (iPhone)</p>
+                <div class="special-text" id="special-text">Give souvenirs (iPhone) to partners (<strong>Toul Tompong
+                        Market</strong>, <strong>Orussey Market</strong>, <strong>Central Market</strong>, and
+                    <strong>Olympic Market</strong>) using "<strong>ACLEDA KHQR</strong>" to receive payments from
+                    ACLEDA mobile and all banks app. Terms &amp; conditions apply. <p>Please read terms and conditions
+                        to get these souvenirs: <a href="#">https://www.acledabank.com.kh/sl/souvenir</a></p>
+                </div>
+            </div>
+            <!-- --------- card 8 ---------- -->
+
+
+            <!-- --------- card 9 ---------- -->
+            <div class="imghome">
+                <img src="assets/img/KOI.jpg" width="100%">
+                <p class="special-title">Instant 30% OFF</p>
+                <div class="special-text" id="special-text">Instant <strong>30%</strong> off for your payments through
+                    <strong>ACLEDA KHQR</strong> on <strong>ACLEDA mobile</strong> at <strong>KOI Thé Cambodia</strong>
+                    every Fri, Sat, &amp; Sun.
+                    <ul type="circle">
+                        <li>Valid from 7 July to 30 September 2023.</li>
+                        <li>Offer up to USD3 or KHR12,000 per transaction.</li>
+                        <li>A customer gets 1 time discount per day.</li>
+                        <li>We reserve the rights to change the terms and conditions or terminate the promotion without
+                            prior notice.</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- --------- card 9 ---------- -->
+
+            <!-- --------- card 10 ---------- -->
+            <div class="imghome">
+                <img src="assets/img/visa-dinning.jpg" width="100%">
+                <p class="special-title">Get a complimentary Set Menu for two with ACLEDA Visa Platinum cards</p>
+                <div class="special-text" id="special-text">Offer is valid from now until September 30, 2023 or while
+                    stocks last. Terms &amp; conditions apply.<p>For more details, please check here: <a
+                            href="#">https://www.acledabank.com.kh/sl/dinning</a></p>
+                </div>
+            </div>
+            <!-- --------- card 10 ---------- -->
+
+            <!-- --------- card 11 ---------- -->
+            <div class="imghome">
+                <img src="assets/img/raffles.jpg" width="100%">
+                <p class="special-title">Special Package</p>
+                <div class="special-text" id="special-text">Special package from <strong>US$295+++</strong> per room per
+                    night for <strong>State Room</strong> at <strong>Raffles Hotel Le Royal</strong>.<p>Privilege is
+                        applicable for <strong>ACLEDA Visa Platinum</strong> cards. Offer is valid from now until
+                        September 30, 2023 or while stocks last.</p>
+                    <p>For more details, please check here: <a href="#">https://www.acledabank.com.kh/sl/raffles</a></p>
+                </div>
+            </div>
+            <!-- --------- card 11 ---------- -->
+
+            <!-- --------- card 12 ---------- -->
+            <div class="imghome">
+                <img src="assets/img/Lucky-JCB.jpg" width="100%">
+                <p class="special-title">Get 30% cashback</p>
+                <div class="special-text" id="special-text">Get <strong>30%</strong> cashback for your payments via
+                    ACLEDA <strong>JCB</strong> cards on <strong>ACLEDA POS</strong> at <strong>Lucky
+                        Supermarket</strong> and <strong>Lucky Express</strong> (all stores).<p>Please read terms and
+                        conditions to get this cashback: <a href="#">https://www.acledabank.com.kh/sl/Lucky3</a></p>
+                </div>
+            </div>
+            <!-- --------- card 12 ---------- -->
+
+            <!-- --------- card 13 ---------- -->
+            <div class="imghome">
+                <img src="assets/img/delivery2.jpg" width="100%">
+                <p class="special-title">Get Bigger Benefit!</p>
+                <div class="special-text" id="special-text">Up to <strong>KHR250,000</strong> every month for all
+                    <strong>deliveries</strong> and <strong>taxi drivers</strong> using <strong>ACLEDA KHQR</strong>.
+                    Offer for two months from September to October 2023.<p>Please read the detailed terms &amp;
+                        conditions here: <a href="#">https://www.acledabank.com.kh/sl/delivery2</a></p>
+                </div>
+            </div>
+            <!-- --------- card 13 ---------- -->
+
+            <!-- --------- card 14 ---------- -->
+            <div class="imghome">
+                <img src="assets/img/Anik Boutique Hotel.jpg" width="100%">
+                <p class="special-title">Enjoy 10% OFF . <span style="color:red; font-size:70%;">Expired</span></p>
+                <div class="special-text" id="special-text">ACLEDA Bank's Mastercard cardholders enjoy 10% off at Anik
+                    Boutique Hotel located near Koh Pich's Rainbow Bridge in Phnom Penh.<p>Offer from now until the end
+                        of June 2023. Terms &amp; conditions apply.</p>
+                </div>
+            </div>
+            <!-- --------- card 14 ---------- -->
+
+            <!-- --------- card 15 ---------- -->
+            <div class="imghome">
+                <img src="assets/img/Visa-Texas-Chicken.jpg" width="100%">
+                <p class="special-title">Get 10% OFF . <span style="color:red; font-size:70%;">Expired</span></p>
+                <div class="special-text" id="special-text">Enjoy 10% off every your payment through ACLEDA Bank's Visa
+                    cards (except virtual card) at Texas Chicken Cambodia.<p>Valid from now until the end of June 2023
+                        or while stocks last. Terms &amp; conditions apply.</p>
+                </div>
+            </div>
+            <!-- --------- card 15 ---------- -->
+
+        </div>
+        <div class="main-left">
+            <div class="head-banner">
+                <img src="assets/img/baner-right.jpg">
+                <div class="logo-right">
+                    <div class="all">
+                        <img src="assets/img/Logo-right.jpg">
+                        <div class="logo-txt">
+                            <div style="font-weight: bold; letter-spacing: 1px;">ACLEDA Bank PIc.</div>
+                            <div style="font-size: 13px; padding-bottom: 6px;">1,273,472 followers</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- --------- box1 ------------ -->
+            <div class="rictn-ctn">
+                <p class="title"><a href="frm_mobile">Do you want QR Code (KHQR) or POS for your business?</a></p>
+                <div class="title-img">
+                    <img src="assets/img/request-qr-pos-eng.jpg">
+                </div>
+                <p class="title-txt">Please fill our <a href="#" style="text-decoration: none;">form here</a> and we
+                    will contact you and prepare these payment facilities for you. You can request ACLEDA Bank's QR code
+                    (KHQR) or POS terminal for your business.</p>
+                <div class="btn-hover">
+                    <p class="buttn-ho" style="padding:25px 0 10px; text-align:center;"><a href="#">Apply Now</a></p>
+                </div>
+            </div>
+            <!-- --------- box1 ------------ -->
+
+            <!-- --------- box2 ------------ -->
+            <div class="rictn-ctn">
+                <img src="assets/img/img-acledamobile-1.jpg" width="100%" style="margin-top: 10px;">
+                <p style="text-align:center;font-size: 14px; margin-top: 8px;"><strong>A real bank in your
+                        hands.</strong></p>
+                <p style="text-align:center;font-size: 14px;"><strong>3.09M</strong> PEOPLE USE THIS.</p>
+                <div class="brand">
+                    <p>
+                        <a href="#"><img src="assets/img/apple.png"></a>
+                        <a href="#"><img src="assets/img/google.png"></a>
+                        <a href="#"><img src="assets/img/hauwei.png"></a>
+                    </p>
+                </div>
+            </div>
+            <!-- --------- box2 ------------ -->
+
+            <!-- --------- box3 ------------ -->
+            <div class="rictn-ctn">
+                <div class="title"><a href="#">Call Center (24/7)</a></div>
+                <p style="padding-top: 10px;font-size: 13px;">Any comment or inquiry?</p>
+                <div id="contact-ri">
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-phone"></i><span>023 994 444, 015 999 233</span></a></li>
+                        <li><a href="#"><i class="fa-solid fa-envelope"></i><span>inquiry@acledabank.com.kh</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- --------- box3 ------------ -->
+
+            <!-- --------- box4 ------------ -->
+            <div class="rictn-ctn">
+                <div class="title" style="font-size: 15px;margin-bottom: 8px;"><a href="#">Complaint Management
+                        Centre</a></div>
+                <p>For complaint purpose (every working day from 7:30 to 16:30).</p>
+                <div id="contact-ri">
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-phone"></i><span>015 888 654</span></a></li>
+                        <li><a href="#"><i class="fa-solid fa-envelope"></i><span>cmc@acledabank.com.kh</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- --------- box4 ------------ -->
+
+            <!-- --------- box5 ------------ -->
+            <div class="rictn-ctn">
+                <div class="title"><a href="#">Ratings &amp; Reviews</a></div>
+                <img src="assets/img/rate_review.jpg" width="100%" style="margin-top: 10px; margin-bottom: 10px;">
+                <p style="font-size: 14px;">Thanks for your valuable time to rate us.</p>
+            </div>
+            <!-- --------- box5 ------------ -->
+        </div>
+    </section>
+    <!-- ---------- Start footer -------- -->
+    <footer>
+        <div class="con-footer">
+            <div class="contact1">
+                <ul>
+                    <li><a href="">SITE MAP</a></li>
+                    <li><a href="">FORM CENTER</a></li>
+                    <li><a href="">USER MANUAL</a></li>
+                    <li><a href="">SECURITY TIPS</a></li>
+                    <li><a href="">NEWSLETTER</a></li>
+                    <li><a href="">LEGAL AND PRIVACY NOTICE</a></li>
+                </ul>
+            </div>
+
+            <div class="contact1">
+                <ul>
+                    <li style="color: white;">ONLINE VISITOR: 131</li>
+                    <li style="color: white;">©2023 ACLEDA Bank .</li>
+                    <li>
+                        <div class="con-btn">Cookies Settings</div>
+                    </li>
+                    <p>CONNECT WITH US ON</p>
+                </ul>
+            </div>
+
+            <div class="Social-media">
+                <ul>
+                    <li>
+                        <a href=""><img src="assets/img/icon-facebook1.png"></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="assets/img/icon-messenger2.jpg"></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="assets/img/icon-telegram3.png"></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="assets/img/icon-tiktok4.png"></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="assets/img/icon_youtube5.svg"></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="assets/img/icon_instagram6.svg"></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="assets/img/icon-linkedin7.png"></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="assets/img/icon_line8.svg"></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="assets/img/icon-wechat9.jpg"></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="assets/img/icon-whatsapp10.jpg"></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="assets/img/icon_twitter11.svg"></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="assets/img/icon-viber12.jpg"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="design">
+                <p>Designed by <a href="">PICH CHIMI</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ---------- and footer --------  -->
+
+
+    <script>
+        var nav = document.getElementById("nav");
+        function showMenu() {
+            nav.style.left = "0";
+        }
+        function hideMenu() {
+            nav.style.left = "-400px";
+        }
+    </script>
+    <!-- ------------ B JS --------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
